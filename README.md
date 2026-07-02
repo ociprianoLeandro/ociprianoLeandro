@@ -6,14 +6,16 @@
 
 </div>
 
-```java
-public class LeandroCipriano extends Student {
-    private String name      = "Leandro Cipriano da Silva";
-    private String role      = "Computer Science Student";
-    private String location  = "João Pessoa, PB";
-    private String currently = "Trainee at HCI League (Cortechx)";
-    private String[] focus   = {"Algorithms", "Data Structures", "Data Analysis"};
-}
+```python
+class LeandroCipriano:
+    def __init__(self):
+        self.name = "Leandro Cipriano da Silva"
+        self.role = "Computer Science Student"
+        self.location = "João Pessoa, PB"
+        self.currently = "Member at UFPB HCI League (Cortechx)"
+        self.focus = [
+            "SQL & Big Data Engineering (Databricks/PySpark)",
+            "Generative AI & RAG Architectures" ]
 ```
 
 <div align="center">
