@@ -1,57 +1,65 @@
 <p align="center">
-  <img src="./assets/banner.png" width="100%" alt="Leandro Cipriano · Engenharia de Dados e IA aplicada. Ilustração de um ataque de vôlei com pontos de pose, inspirada no Spike.AI." />
+  <img src="./assets/banner.png" width="100%" alt="Leandro Cipriano · Engenharia de Dados e IA aplicada" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/leandro-cipriano-da-silva-144a94287"><img src="https://img.shields.io/badge/LinkedIn-B81C38?style=for-the-badge" alt="LinkedIn" /></a>
-  <a href="https://github.com/ociprianoLeandro?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-191316?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositórios no GitHub" /></a>
-  <a href="mailto:leandroferreirasilva857@gmail.com"><img src="https://img.shields.io/badge/E--mail-191316?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="E-mail" /></a>
+  <a href="https://www.linkedin.com/in/leandro-cipriano-da-silva-144a94287"><img src="https://img.shields.io/badge/LinkedIn-BD1735?style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="https://github.com/ociprianoLeandro?tab=repositories"><img src="https://img.shields.io/badge/GitHub-20151D?style=for-the-badge&amp;logo=github&amp;logoColor=FF7287" alt="Repositórios no GitHub" /></a>
+  <a href="mailto:leandroferreirasilva857@gmail.com"><img src="https://img.shields.io/badge/E--mail-20151D?style=for-the-badge&amp;logo=gmail&amp;logoColor=FF7287" alt="E-mail" /></a>
 </p>
 
-Faço Ciência da Computação na **UFPB** e atuo na diretoria de Visão Computacional da **CortechX**, liga de Interação Humano-Computador da universidade. Sou técnico em Informática pelo **IFPB**, onde fui monitor de Eletrônica, e moro em João Pessoa, PB.
+<p align="center">
+  <img src="./assets/perfil.gif" width="100%" alt="Leandro Cipriano da Silva, de João Pessoa. Estudante de Ciência da Computação na UFPB, técnico em Informática pelo IFPB e integrante da diretoria de Visão Computacional da CortechX. Foco em Engenharia de Dados e IA aplicada." />
+</p>
 
-## Projetos
+<details>
+<summary>Ver código do perfil</summary>
 
-### Spike.AI · Visão computacional no vôlei
+```python
+class LeandroCipriano:
+    name = "Leandro Cipriano da Silva"
+    location = "João Pessoa, PB"
+    education = "Ciência da Computação · UFPB"
+    technical = "Técnico em Informática · IFPB"
 
-Implementei regras para detectar a saída do solo e a aterrissagem pelo contato dos pés e ajustei o rastreamento do atleta em cruzamentos. O pipeline gera um vídeo com esqueleto e exporta em JSON os eventos, com frame e tempo, e as métricas do movimento.
+    research = "Visão Computacional · CortechX"
+    focus = ("Engenharia de Dados", "IA aplicada")
+```
 
-`Python` · `OpenCV` · `RTMPose` · `rtmlib` · `ONNX Runtime` · `OpenVINO`
-
-### UniSaúde · MVP vencedor de hackathon
-
-Liderei a equipe e desenvolvi o backend de uma plataforma que organiza informações de saúde em uma linha do tempo. O MVP inclui extração de texto de documentos com OCR e um assistente com IA.
-
-`Django REST Framework` · `Next.js` · `Supabase` · `Tesseract`
-
-### reHard · Reaproveitamento de hardware
-
-Organizei o backlog, o ambiente local e o fluxo de desenvolvimento do MVP de uma plataforma de doação, triagem e reaproveitamento de equipamentos de informática.
-
-`Django` · `Next.js` · `PostgreSQL` · `Docker Compose` · `GitHub Projects`
-
-### Mapa de egressos · IFPB
-
-Modelei os dados geográficos no PostGIS e usei o QGIS para visualizar a distribuição de egressos do IFPB em recortes da Paraíba e de Pernambuco.
-
-`QGIS` · `PostgreSQL` · `PostGIS`
+</details>
 
 ## Stack
 
-| Área | Tecnologias |
-| --- | --- |
-| Linguagens | **Python**, **SQL**, TypeScript, Java, C |
-| Dados e análise | PostgreSQL, MySQL, Supabase, PostGIS, Pandas, NumPy, Matplotlib, Seaborn, Jupyter |
-| IA e visão computacional | scikit-learn, OpenCV, RTMPose, rtmlib, MediaPipe, ONNX Runtime, OpenVINO, Tesseract |
-| Web e APIs | Django, Django REST Framework, Next.js, HTML, CSS, Tailwind CSS |
-| Ambiente e colaboração | Linux (Ubuntu), Docker, Docker Compose, Git, GitHub Actions |
+**Linguagens e web**  
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,typescript,java,c,django,nextjs,tailwindcss&amp;theme=dark" height="36" alt="Python, TypeScript, Java, C, Django, Next.js e Tailwind CSS" />  
+<sub>Python · SQL · TypeScript · Java · C · Django · Django REST Framework · Next.js · Tailwind CSS</sub>
 
-## Formação em andamento
+**Dados e visão computacional**  
+<img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql,supabase,pandas,numpy,opencv,jupyter&amp;theme=dark" height="36" alt="PostgreSQL, Supabase, Pandas, NumPy, OpenCV e Jupyter" />  
+<sub>PostgreSQL · Supabase · Pandas · NumPy · OpenCV · RTMPose · Jupyter</sub>
 
-Participo da trilha **AI-Driven Data Engineering** do **AI/R Fellowship** e da formação em Engenharia de Dados e IA da **Indicium Academy**. Estudo pipelines ETL na AWS, Spark com PySpark, Airflow, Databricks e RAG.
+**Ferramentas e ambiente**  
+<img src="https://go-skill-icons.vercel.app/api/icons?i=linux,docker,git,githubactions&amp;theme=dark" height="36" alt="Linux, Docker, Git e GitHub Actions" />  
+<sub>Linux (Ubuntu) · Docker · Docker Compose · Git · GitHub Actions</sub>
+
+<details>
+<summary>Mais ferramentas e estudos</summary>
+
+- **Dados e geoprocessamento** · MySQL, PostGIS, QGIS, Matplotlib, Seaborn e scikit-learn.
+- **Visão computacional e OCR** · rtmlib, MediaPipe, ONNX Runtime, OpenVINO e Tesseract.
+- **Web** · HTML e CSS.
+- **Em estudo** · ETL na AWS, PySpark, Airflow, Databricks e RAG.
+
+</details>
+
+> **Formação em andamento** · AI/R Fellowship (AI-Driven Data Engineering) e Indicium Academy (Engenharia de Dados e IA).
 
 ## Atividade no GitHub
 
 <p align="center">
-  <a href="https://github.com/ociprianoLeandro"><img src="https://github-readme-activity-graph.vercel.app/graph?username=ociprianoLeandro&amp;bg_color=110d10&amp;color=f3dfe5&amp;line=ff4158&amp;point=fff0ec&amp;area=true&amp;area_color=811f36&amp;hide_border=true&amp;hide_title=true" width="100%" alt="Gráfico de contribuições dos últimos 31 dias no GitHub" /></a>
+  <a href="https://github.com/ociprianoLeandro#contributions"><img src="https://streak-stats.demolab.com/?user=ociprianoLeandro&amp;locale=pt_BR&amp;timezone=America%2FFortaleza&amp;theme=dark&amp;background=100C11&amp;border=633043&amp;stroke=372531&amp;ring=FF4158&amp;fire=FF7185&amp;currStreakNum=FFF3F4&amp;currStreakLabel=FF7185&amp;sideNums=FFF3F4&amp;sideLabels=F2BBC5&amp;dates=BFAAB4&amp;border_radius=11" width="495" alt="Total de contribuições e sequências atual e mais longa" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ociprianoLeandro#contributions"><img src="https://github-readme-activity-graph.vercel.app/graph?username=ociprianoLeandro&amp;bg_color=100c11&amp;color=f2bbc5&amp;line=ff4158&amp;point=ffe9ed&amp;area=true&amp;area_color=751d39&amp;border_color=633043&amp;radius=12&amp;hide_title=true" width="100%" alt="Gráfico de contribuições dos últimos 31 dias" /></a>
 </p>
