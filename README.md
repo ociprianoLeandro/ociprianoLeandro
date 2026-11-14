@@ -1,81 +1,57 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/banner.png" width="100%" alt="Leandro Cipriano · Engenharia de Dados e IA aplicada. Ilustração de um ataque de vôlei com pontos de pose, inspirada no Spike.AI." />
+</p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:555555,100:000000&height=200&section=header&text=Hello,%20World!&fontSize=52&fontColor=ffffff&fontAlignY=38&fontType=Inter&animation=fadeIn" />
+<p align="center">
+  <a href="https://www.linkedin.com/in/leandro-cipriano-da-silva-144a94287"><img src="https://img.shields.io/badge/LinkedIn-B81C38?style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="https://github.com/ociprianoLeandro?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-191316?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repositórios no GitHub" /></a>
+  <a href="mailto:leandroferreirasilva857@gmail.com"><img src="https://img.shields.io/badge/E--mail-191316?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="E-mail" /></a>
+</p>
 
-</div>
+Faço Ciência da Computação na **UFPB** e atuo na diretoria de Visão Computacional da **CortechX**, liga de Interação Humano-Computador da universidade. Sou técnico em Informática pelo **IFPB**, onde fui monitor de Eletrônica, e moro em João Pessoa, PB.
 
-</div>
+## Projetos
 
-```python
-class LeandroCipriano:
-    def __init__(self):
-        self.name = "Leandro Cipriano da Silva"
-        self.role = "Computer Science Student"
-        self.location = "João Pessoa, PB"
-        self.currently = "Member at UFPB HCI League (Cortechx)"
-        self.focus = [
-            "SQL & Big Data Engineering (Databricks/PySpark)",
-            "Generative AI & RAG Architectures" ]
-```
+### Spike.AI · Visão computacional no vôlei
 
-<div align="center">
+Implementei regras para detectar a saída do solo e a aterrissagem pelo contato dos pés e ajustei o rastreamento do atleta em cruzamentos. O pipeline gera um vídeo com esqueleto e exporta em JSON os eventos, com frame e tempo, e as métricas do movimento.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/leandro-cipriano-da-silva-144a94287) 
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github)](https://github.com/ociprianoLeandro) 
-[![Gmail](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail)](mailto:leandroferreirasilva857@gmail.com)
+`Python` · `OpenCV` · `RTMPose` · `rtmlib` · `ONNX Runtime` · `OpenVINO`
 
-</div>
+### UniSaúde · MVP vencedor de hackathon
 
----
+Liderei a equipe e desenvolvi o backend de uma plataforma que organiza informações de saúde em uma linha do tempo. O MVP inclui extração de texto de documentos com OCR e um assistente com IA.
 
-### **Stack**
+`Django REST Framework` · `Next.js` · `Supabase` · `Tesseract`
 
-**LANGUAGES**
-<div align="left">
-  <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python" /> 
-  <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql" />
-</div>
+### reHard · Reaproveitamento de hardware
 
-<br />
+Organizei o backlog, o ambiente local e o fluxo de desenvolvimento do MVP de uma plataforma de doação, triagem e reaproveitamento de equipamentos de informática.
 
-**DATA SCIENCE & DATABASES**
-<div align="left">
-  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql" />
-  <img src="https://img.shields.io/badge/Supabase-0d1117?style=for-the-badge&logo=supabase" />
-  <img src="https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas" /> 
-  <img src="https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy" /> 
-  <img src="https://img.shields.io/badge/Matplotlib-0d1117?style=for-the-badge&logo=plotly" /> 
-  <img src="https://img.shields.io/badge/Seaborn-0d1117?style=for-the-badge&logo=python" /> 
-  <img src="https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn" />
-</div>
+`Django` · `Next.js` · `PostgreSQL` · `Docker Compose` · `GitHub Projects`
 
-<br />
+### Mapa de egressos · IFPB
 
-**TOOLS & ENVIRONMENTS**
-<div align="left">
-  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git" /> 
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&logo=jupyter" /> 
-</div>
+Modelei os dados geográficos no PostGIS e usei o QGIS para visualizar a distribuição de egressos do IFPB em recortes da Paraíba e de Pernambuco.
 
----
+`QGIS` · `PostgreSQL` · `PostGIS`
 
-<div align="center">
+## Stack
 
-<img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=ociprianoLeandro&theme=github-dark-blue&background=0d1117&ring=ffffff&fire=ffffff&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=8b949e&dates=8b949e&border=21262d" />
+| Área | Tecnologias |
+| --- | --- |
+| Linguagens | **Python**, **SQL**, TypeScript, Java, C |
+| Dados e análise | PostgreSQL, MySQL, Supabase, PostGIS, Pandas, NumPy, Matplotlib, Seaborn, Jupyter |
+| IA e visão computacional | scikit-learn, OpenCV, RTMPose, rtmlib, MediaPipe, ONNX Runtime, OpenVINO, Tesseract |
+| Web e APIs | Django, Django REST Framework, Next.js, HTML, CSS, Tailwind CSS |
+| Ambiente e colaboração | Linux (Ubuntu), Docker, Docker Compose, Git, GitHub Actions |
 
-</div>
+## Formação em andamento
 
-<div align="center">
+Participo da trilha **AI-Driven Data Engineering** do **AI/R Fellowship** e da formação em Engenharia de Dados e IA da **Indicium Academy**. Estudo pipelines ETL na AWS, Spark com PySpark, Airflow, Databricks e RAG.
 
-<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=ociprianoLeandro&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true" />
+## Atividade no GitHub
 
-</div>
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:555555,100:000000&height=100&section=footer&animation=fadeIn" />
-
-</div>
+<p align="center">
+  <a href="https://github.com/ociprianoLeandro"><img src="https://github-readme-activity-graph.vercel.app/graph?username=ociprianoLeandro&amp;bg_color=110d10&amp;color=f3dfe5&amp;line=ff4158&amp;point=fff0ec&amp;area=true&amp;area_color=811f36&amp;hide_border=true&amp;hide_title=true" width="100%" alt="Gráfico de contribuições dos últimos 31 dias no GitHub" /></a>
+</p>
