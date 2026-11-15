@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/leandro-cipriano-da-silva-144a94287"><img src="./assets/badges/linkedin.png" width="84" height="32" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/ciprianoleandro/"><img src="./assets/badges/linkedin.png" width="84" height="32" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:leandroferreirasilva857@gmail.com"><img src="./assets/badges/email.png" width="65" height="32" alt="Email" /></a>
 </p>
 
