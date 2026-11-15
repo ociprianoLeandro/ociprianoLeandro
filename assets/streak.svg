@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="180" viewBox="0 0 495 180" role="img" aria-labelledby="title description">
+  <title id="title">GitHub contributions</title>
+  <desc id="description">113 total contributions, a current streak of 2 days, and a longest streak of 3 days. Snapshot from November 14, 2026.</desc>
+  <rect x="0.5" y="0.5" width="494" height="179" rx="12" fill="#100b10" stroke="#582235" />
+  <path d="M158 32v106 M337 32v106" fill="none" stroke="#34212e" />
+  <circle cx="247.5" cy="65" r="29" fill="none" stroke="#ff4158" stroke-width="2.6" />
+  <g fill="#fff5f5" font-family="system-ui, sans-serif" text-anchor="middle" font-size="27" font-weight="700">
+    <text x="79" y="74">113</text>
+    <text x="247.5" y="74">2<tspan font-size="12" font-weight="500"> days</tspan></text>
+    <text x="416" y="74">3<tspan font-size="12" font-weight="500"> days</tspan></text>
+  </g>
+  <g fill="#f5d8e0" font-family="system-ui, sans-serif" text-anchor="middle" font-size="13.5" font-weight="500">
+    <text x="79" y="116">Total Contributions</text>
+    <text x="247.5" y="116" fill="#ff8fa0">Current Streak</text>
+    <text x="416" y="116">Longest Streak</text>
+  </g>
+  <text x="247.5" y="155" fill="#bfaab4" font-family="system-ui, sans-serif" text-anchor="middle" font-size="11">Snapshot · Nov 14, 2026</text>
+</svg>

@@ -1,0 +1,58 @@
+name: Refresh contribution card
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/refresh-contribution-card.yml
+  schedule:
+    - cron: '17 9 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contribution-card
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Generate the English streak card
+        uses: DenverCoder1/github-readme-streak-stats@125aaaf200620410446ebfa51897fca3607e04fd # v1.8.2
+        with:
+          path: assets/streak.svg
+          token: ${{ github.token }}
+          options: 'user=${{ github.repository_owner }}&locale=en&theme=dark&background=100B10&border=582235&stroke=34212E&ring=FF4158&fire=FF7185&currStreakNum=FFF5F5&currStreakLabel=FF8FA0&sideNums=FFF5F5&sideLabels=F5D8E0&dates=BFAAB4&border_radius=12&card_height=180&disable_animations=true'
+
+      - name: Validate and commit the card
+        run: |
+          python3 - <<'PY'
+          from xml.etree import ElementTree
+
+          root = ElementTree.parse('assets/streak.svg').getroot()
+          text = ''.join(''.join(root.itertext()).lower().split())
+          expected_labels = ('totalcontributions', 'currentstreak', 'longeststreak')
+          if root.tag != '{http://www.w3.org/2000/svg}svg' or not all(label in text for label in expected_labels):
+              raise SystemExit('Expected a contribution card. Keeping the previous image.')
+          PY
+
+          git add -- assets/streak.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh contribution card'
+          git pull --rebase
+          git push
